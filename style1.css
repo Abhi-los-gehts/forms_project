@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+
+    background-color: lightsalmon;
+    position: relative;
+    display: flex;
+    
+}
+
+
+form{
+border: 2px solid green;
+
+
+justify-content: center;
+align-items: center;
+position: absolute;
+
+left :45%;
+top:300px;
+
+padding: 70px;
+
+
+}
