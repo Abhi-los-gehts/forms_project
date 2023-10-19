@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    <title> login_Forms_project</title>
+    <title> Regstration_Forms_project</title>
 </head>
 <body>
+
+    <div class="container">
     <form action="" method="post">
         
         <label for="fname">FirstName : </label>
@@ -22,11 +24,16 @@
         <input type="text" name="Email id " id="Email"><br><br>
 
         <label for="Nationality">Nationality : </label>
-        <input type="text" name="lastName" id="Nationality"><br><br>
-
+        <select id="Nationality" name="Nationality">
+            <option value="India"> Indian</option>
+            <option value="German"> German</option>
+            <option value="Urkarine"> UA</option>
+            <option value="USA"> USA</option>
+        </select>
+            <br><br><br><br>
         <input type="submit" value="Submit">
     </form>
    
-
+</div>
 </body>
 </html>
